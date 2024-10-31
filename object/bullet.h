@@ -1,0 +1,24 @@
+#pragma once
+#include "gameObject.h"
+
+// ëOï˚êÈåæ
+class BoxCollisionComponent;
+
+class Bullet :public GameObject
+{
+private:
+	BoxCollisionComponent* m_BoxCollision = nullptr;
+	float m_CurrentLifeTime = 0;					// åªç›ÇÃê∂ë∂éûä‘
+
+	XMFLOAT2 m_Velocity = {};						// ë¨ìx
+
+public:
+	Bullet();
+	~Bullet();
+	virtual void Init()override;
+	virtual void Unit()override;
+	virtual void Update(const float& deltaTime)override;
+	virtual void Draw(const XMFLOAT2& cameraPos)override;
+	void SetBullet(const XMFLOAT2& pos);
+	void CollisionControl();
+};

@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="manager">
+      <UniqueIdentifier>{51ddff8b-17d0-466d-b4a2-a41da0673cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{78f8c73c-a08c-4d9d-bb8e-77221ba9b730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object">
+      <UniqueIdentifier>{eb092da5-5cd2-45c6-966b-cb7d1b34ed29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="component">
+      <UniqueIdentifier>{ed772035-74c9-4b65-86ba-e2676486b55a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playerState">
+      <UniqueIdentifier>{e2211dad-0433-40a4-9929-00b1c8a797ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{8ecafd70-606d-4ad0-9e8d-328c97c512a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character">
+      <UniqueIdentifier>{ff5de15e-e21e-4a70-a2dc-51a369d26d11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="manager\textureManager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\sceneManager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\inputManager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp" />
+    <ClCompile Include="scene\scene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="object\block.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="component\collisionConponent.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="playerState\playerState.cpp">
+      <Filter>playerState</Filter>
+    </ClCompile>
+    <ClCompile Include="playerState\playerStateWalk.cpp">
+      <Filter>playerState</Filter>
+    </ClCompile>
+    <ClCompile Include="playerState\playerStateDamage.cpp">
+      <Filter>playerState</Filter>
+    </ClCompile>
+    <ClCompile Include="playerState\playerStateHitJump.cpp">
+      <Filter>playerState</Filter>
+    </ClCompile>
+    <ClCompile Include="playerState\playerStateIdle.cpp">
+      <Filter>playerState</Filter>
+    </ClCompile>
+    <ClCompile Include="playerState\playerStateJump.cpp">
+      <Filter>playerState</Filter>
+    </ClCompile>
+    <ClCompile Include="object\bullet.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\bulletManager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\gameScene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject.cpp" />
+    <ClCompile Include="character\player.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="character\character.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="character\jellyfish.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="character\snail.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ui.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\enemyManager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="character\enemy.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\titleScene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="gameOver.cpp" />
+    <ClCompile Include="playerState\playerStateDead.cpp">
+      <Filter>playerState</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\blockManager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp" />
+    <ClCompile Include="manager\soundManager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="manager\textureManager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject.h" />
+    <ClInclude Include="manager\sceneManager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\inputManager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h" />
+    <ClInclude Include="scene\scene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="object\block.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="component\component.h">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="component\collisionConponent.h">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="component\boxCollisionComponent.h">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="playerState\playerState.h">
+      <Filter>playerState</Filter>
+    </ClInclude>
+    <ClInclude Include="playerState\playerStateIdle.h">
+      <Filter>playerState</Filter>
+    </ClInclude>
+    <ClInclude Include="playerState\playerStateJump.h">
+      <Filter>playerState</Filter>
+    </ClInclude>
+    <ClInclude Include="playerState\playerStateDamage.h">
+      <Filter>playerState</Filter>
+    </ClInclude>
+    <ClInclude Include="playerState\playerStateWalk.h">
+      <Filter>playerState</Filter>
+    </ClInclude>
+    <ClInclude Include="playerState\playerStateHitJump.h">
+      <Filter>playerState</Filter>
+    </ClInclude>
+    <ClInclude Include="object\bullet.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\bulletManager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\gameScene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="character\player.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="character\character.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="character\enemy.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="character\jellyfish.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="character\snail.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\enemyManager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\titleScene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="gameOver.h" />
+    <ClInclude Include="playerState\playerStateDead.h">
+      <Filter>playerState</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\blockManager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h" />
+    <ClInclude Include="manager\soundManager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
